@@ -7,8 +7,7 @@ const routerApi = (app) => {
     const versionRoutes = express.Router()
 
     versionRoutes.use('/products', routerProducts)
-    // console.log('123')
-    // app.use()
+    // COMO ES VERCEL TENGO QUE PONERLE /api/
     app.use('/api/v1', versionRoutes)
     // app.use('/products', productROuter)
 }
