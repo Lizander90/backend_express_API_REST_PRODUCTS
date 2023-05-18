@@ -21,7 +21,7 @@ const corsOptions = {
     }
 }
 app.get('/api/', (req, resp) => {
-    resp.send('WELCOME TO THE CRUD PRODUCTS IN EXPRESS....')
+    resp.send('WELCOME TO THE CRUD PRODUCTS IN EXPRESS...')
 })
 
 app.use(cors(corsOptions))
